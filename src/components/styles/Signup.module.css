@@ -1,0 +1,64 @@
+.SignUpContainer{
+    height: 500px;  
+    color: #261568;
+}
+.formField{
+    height: 70px;
+}
+.formField div{
+    color: rgba(244, 4, 4, 0.652);
+    font-weight: bold;
+}
+.border{
+    padding: 5px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid rgba(192, 192, 192, 0.581);
+    outline: none;
+}
+.redBorder{
+    padding: 5px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid rgba(245, 7, 7, 0.581);
+    outline: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons button[type="submit"]{
+    background: linear-gradient(
+        90deg,
+        rgba(44, 28, 107, 0.958420868347339) 0%,
+        rgba(25, 15, 64, 0.9472163865546218) 50%,
+        rgba(21, 12, 59, 0.9640231092436975) 100%
+      );
+      color: #fff;
+      font-weight: bold;
+}
+
+.buttons div{
+    width: 100%;
+}
+.buttons button[type="button"]{
+        width: 36%;
+        margin: 5px;
+        color: #261568;
+        border: 2px solid #261568af;
+}
+.success{
+    margin: 100px 50px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 9px 1px #26156849;
+}
+@media(max-width:370px){
+    .SignUpContainer{
+        height: 400px;  
+        color: #261568;
+        overflow: auto;
+    }
+}

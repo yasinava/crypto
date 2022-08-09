@@ -1,0 +1,98 @@
+.CoinContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #262938;
+    transition: all 0.1s;
+    padding: 5px 0;
+}
+.CoinContainer:hover{
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.281);
+}
+.LandingNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+.LandingNavbar img{
+    width: 24px;
+}
+.CoinContainer img{
+    width: 40px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.listCoins{
+    height:400px ;
+    overflow: auto;
+}
+.searchBox input{
+border: none;
+margin-left:10px ;
+outline: none;
+}
+.searchBox{
+    border: 1.5px solid rgba(192, 192, 192, 0.425);
+    padding: 3px 8px;
+    border-radius:10px ;
+    transition: all 0.3s;
+}
+.loginBox{
+    border: 1px solid silver;
+    margin: 50px 50px;
+    border-radius:13px ;
+    background-color: #fff;
+    box-shadow: 0 9px 20px -4px rgba(32, 32, 75, 0.493);
+}
+.moreItem{
+    width: 200px ;
+    height: 90px;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(192, 192, 192, 0.562);
+    border-radius: 10px;
+    box-shadow: 0 3px 9px #353d6365;
+    position: absolute;
+}
+.moreItem button{
+    color: #162364;
+}
+.logout{
+    margin: 130px 50px ;
+    border: 1px solid rgba(192, 192, 192, 0.464);
+    background-color: rgba(255, 255, 255, 0.52);
+    box-shadow: 0px 9px 9px 2px rgba(192, 192, 192, 0.712);
+    border-radius: 8px;
+}
+.logout div{
+    display: flex;
+    flex-direction: column;
+}
+.logout button{
+    border:2px solid #162364;
+    color: #162364;
+    font-weight: bold;
+}
+.logout button[type="button"]{
+    background-color: #162364;
+    color: #fff;
+}
+@media(max-width:370px){
+    .searchBox {
+        display: flex;
+        padding: 3px 3px;
+    }
+    .listCoins{
+        height:300px ;
+        overflow: auto;
+    }
+}

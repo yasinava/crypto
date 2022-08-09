@@ -1,0 +1,86 @@
+.detailsContainer {
+  height: 500px;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px 40px;
+}
+.picCoin {
+  width: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 9px 3px #2c1c6b4b;
+}
+.marketGlobal {
+  color: rgb(70, 60, 60);
+  font-weight: bold;
+  background-color: #f1f2f3bb;
+  display: inline;
+  padding: 10px;
+  border-radius: 20px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.price div {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  background-color: #f1f2f385;
+  border-radius: 15px;
+  padding: 10px;
+}
+.btn button {
+  background: linear-gradient(
+    90deg,
+    rgba(44, 28, 107, 0.958420868347339) 0%,
+    rgba(25, 15, 64, 0.9472163865546218) 50%,
+    rgba(21, 12, 59, 0.9640231092436975) 100%
+  );
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 3px 9px 2px #2c1c6b6b;
+}
+.btn button:hover {
+  color: #fff;
+}
+.coins {
+  display: flex;
+  justify-content: space-around;
+  margin-top:30px;
+}
+.coins div{
+    width: 100px;
+    color: #2C1C6B;
+    border: 2px solid #2c1c6b48;
+    font-weight: bold;
+}
+.logout{
+  margin: 130px 50px ;
+  border: 1px solid rgba(192, 192, 192, 0.464);
+  background-color: rgba(255, 255, 255, 0.52);
+  box-shadow: 0px 9px 9px 2px rgba(192, 192, 192, 0.712);
+  border-radius: 8px;
+}
+.logout div{
+  display: flex;
+  flex-direction: column;
+}
+.logout button{
+  border:2px solid #162364;
+  color: #162364;
+  font-weight: bold;
+}
+.logout button[type="button"]{
+  background-color: #162364;
+  color: #fff;
+}
+.accountUser{
+  margin: 80px 30px;
+}
+.accountUser img{
+ width: 150px;
+}
